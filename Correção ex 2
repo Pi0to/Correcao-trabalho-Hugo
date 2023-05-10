@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+
+int main() {
+    
+    float num, num1, num2;
+    
+    printf ("Digite o valor dos três produtos: ");
+        scanf ("%f %f %f", &num, &num1, &num2);
+    
+    
+    if (num >= 5000) {printf ("O primeiro produto é caro.\n");}
+    
+    if (num1 >= 5000) {printf ("O segundo produto é caro.\n");}
+   
+    if (num2 >= 5000) {printf ("O terceiro produto é caro\n");}
+    
+    if (num < 5000 && num1 < 5000 && num2 < 5000){printf ("Nenhum produto é caro");}
+    
+   
+    return 0;
+}
